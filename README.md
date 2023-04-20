@@ -1,4 +1,4 @@
-Projet challenge d'entreprendre TSP-IMTBS-ENSIEE
+Projet challenge d'entreprendre TSP-IMTBS-ENSIIE
 ===
 
 Implémentation du projet SEA-ROS
