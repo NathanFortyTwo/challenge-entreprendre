@@ -16,10 +16,9 @@ cd searos
 python3 manage.py runserver
 ```
 
-Then go to 127.0.0.1:8000 to see the server
+Rendez vous ensuite sur 127.0.0.1:8000 pour voir le serveur
 
-
-Contributors :
+Contributeurs :
 ===
 
 - Helene DE FORAS DU BOURGNEUF
