@@ -20,4 +20,6 @@ from myApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",views.homepage),
+    path("get-started",views.get_started),
+    
 ]

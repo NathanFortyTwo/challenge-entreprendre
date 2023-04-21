@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+header {
+    background-color: #444;
+    padding: 10px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
+
+a:visited {
+    color: blanchedalmond;
+}
+
+h2 {
+    font-size: 50px;
+}
