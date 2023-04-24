@@ -782,7 +782,7 @@ Header Style
 .pre-header .left-info ul li {
   margin-right: 15px;
   padding-right: 15px;
-  border-right: 1px solid #dfb6ff;
+  border-right: 1px solid #5A6672;
 }
 
 .pre-header .left-info ul li a {
@@ -795,7 +795,7 @@ Header Style
 }
 
 .pre-header ul li a {
-  color: #a586bc;
+  color: #5A6672;
   transition: all .4s;
 }
 
@@ -813,7 +813,7 @@ Header Style
 }
 
 .pre-header ul li a:hover {
-  color: #c03afe;
+  color: #390040;
 }
 
 /* 
@@ -1903,19 +1903,19 @@ body {
   .main-banner .line-dec {
     margin: 30px auto 20px auto;
   }
-  .projects .owl-nav {
+  /* .projects .owl-nav {
     text-align: center;
     right: auto;
     top: -70px;
     left: 50%;
     transform: translateX(-50%);
-  }
+  } 
   .projects .section-heading {
     text-align: center;
   }
   .projects .section-heading .line-dec {
     margin: 0px auto 20px auto;
-  }
+  }*/
   .infos .main-content .left-image img {
     display: inline-block;
   }
