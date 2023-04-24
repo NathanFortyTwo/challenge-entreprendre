@@ -1762,12 +1762,6 @@ readers do not read off random characters that represent icons */
 .fa-dharmachakra::before {
   content: "\f655"; }
 
-.fa-diagram-project::before {
-  content: "\f542"; }
-
-.fa-project-diagram::before {
-  content: "\f542"; }
-
 .fa-diamond::before {
   content: "\f219"; }
 
@@ -6284,10 +6278,7 @@ readers do not read off random characters that represent icons */
 
 .fa-quora:before {
   content: "\f2c4"; }
-
-.fa-r-project:before {
-  content: "\f4f7"; }
-
+  
 .fa-raspberry-pi:before {
   content: "\f7bb"; }
 

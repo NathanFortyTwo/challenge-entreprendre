@@ -188,8 +188,8 @@ body {
   width: 60px;
   height: 2px;
   margin-bottom: 20px;
-  background: rgb(85,0,227);
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  background: #96C6D9;
+  background: linear-gradient(90deg, #96C6D9 0%, #EBFFFE 100%);
 }
 
 .section-heading h2 {
@@ -334,8 +334,8 @@ Header Style
 
 .header-area {
   position: absolute;
-  background: rgb(85,0,227);
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  background: #96C6D9;
+  background: linear-gradient(90deg, #96C6D9 0%, #EBFFFE 100%);
   height: 110px;
   top: 57px;
   left: 0;
@@ -405,7 +405,7 @@ Header Style
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: #fff;
+  color: #390040;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -434,13 +434,13 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff;
+  color: #390040;
   opacity: 0.8;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff;
+  color: #390040;
   opacity: 0.8;
 }
 
@@ -453,7 +453,7 @@ Header Style
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #fff;
+  color: #390040;
   position: absolute;
   right: 30px;
   top: 45px;
@@ -612,11 +612,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #390040;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #fff;
+  background-color: #390040;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -624,15 +624,15 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #390040;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #fff;
+  background-color: #390040;
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fff;
+  color: #390040;
 }
 
 @media (max-width: 1200px) {
@@ -827,6 +827,7 @@ Banner Style
   padding: 295px 0px 185px 0px;
 }
 
+
 .main-banner:after {
   content: url(../images/banner-right.png);
   top: -1px;
@@ -836,6 +837,7 @@ Banner Style
   height: 746px;
   z-index: -1;
 }
+
 
 .main-banner::before {
   content: url(../images/banner-left.png);
@@ -854,12 +856,14 @@ Banner Style
   font-weight: 700;
 }
 
+
 .main-banner .line-dec {
   margin: 30px 0px 20px 0px;
   width: 210px;
   height: 2px;
   background-color: #decdfa;
 }
+
 
 .main-banner h4 {
   font-size: 52px;
@@ -964,7 +968,7 @@ Services Style
 ---------------------------------------------
 Projects Style
 --------------------------------------------- 
-*/
+
 
 .projects .section-heading {
   margin-bottom: 80px;
@@ -1041,6 +1045,8 @@ Projects Style
 .projects .owl-nav .owl-next span:hover {
   opacity: 1;
 }
+*/
+
 
 /* 
 ---------------------------------------------
@@ -1245,8 +1251,8 @@ Contact Style
 
 .contact-us-content .more-info {
   text-align: center;
-  background: rgb(85,0,227);
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  background: #96C6D9;
+  background: linear-gradient(90deg, #96C6D9 0%, #EBFFFE 100%);
   border-radius: 0px 0px 23px 23px;
   padding: 45px 30px 15px 30px;
 }
@@ -1545,7 +1551,7 @@ Happy Clients Style
 }
 
 .happy-clients .naccs .menu div.active {
-  color: #5b03e4;
+  color: #390040;
 }
 
 .happy-clients ul.nacc {
