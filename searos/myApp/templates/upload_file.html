@@ -1,0 +1,10 @@
+    <h1>Upload File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form>
+    {% if message %}
+        <p>{{ message }}</p>
+        <button onclick="location.href='run_stat/' filename=request.FILES.file %}'">Run stat</button>
+    {% endif %}
