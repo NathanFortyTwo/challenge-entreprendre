@@ -3,7 +3,7 @@ from django.core.files.storage import FileSystemStorage
 import os
 
 from django.conf import settings
-# Create your views here.
+from os import system
 
 def homepage(request):
     context = {}
@@ -18,9 +18,14 @@ def upload_file(request):
         return render(request, 'upload_file.html', {'message': 'File uploaded successfully.'})
     return render(request, 'upload_file.html')
 
-import subprocess
-
 def run_stat(request, filename):
     filepath = os.path.join(settings.MEDIA_ROOT, filename)
-    output = subprocess.check_output(['stat', filepath])
-    return HttpResponse("Hello !!!")
+    system("stat "+filepath + ">output.txt")
+
+    with open("output.txt") as f:
+        data = f.read()
+    
+    system("rm "+filepath)
+
+
+    return HttpResponse(data)

@@ -6,5 +6,6 @@
     </form>
     {% if message %}
         <p>{{ message }}</p>
-        <button onclick="location.href='run_stat/' filename=request.FILES.file %}'">Run stat</button>
+        {{request.FILES.file}}
+        <button onclick=location.href="run_stat/'{{request.FILES.file}}'"> Run stat</button>
     {% endif %}
