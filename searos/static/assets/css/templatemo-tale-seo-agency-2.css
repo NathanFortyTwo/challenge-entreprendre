@@ -2048,3 +2048,93 @@ body {
     object-fit: cover;
     border-radius: 5px;
   }
+
+
+/*loading button*/
+
+
+.twoToneCenter {
+  text-align:center;
+  margin:1em 0;
+}
+.twoToneButton {
+  display: inline-block;
+  outline:none;
+  letter-spacing: 0.5px;
+  padding:12px 30px;
+  border-radius: 25px;
+  color:#fff;
+  
+  position: relative;
+  transition: all .3s;
+  font-weight:400;
+
+  font-size: 14px;
+  color: #fff;
+  background-color: #62256a;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+.twoToneButton:hover {
+  background-color: #8a4993;
+  color: #fff;
+  opacity: 0.8;
+}
+.twoToneButton:active{
+  box-shadow:0 0 10px darken(#390040,10%) inset, 0px 1px 0 lighten(#390040,10%);
+  color:lighten(#62256a,30%);
+  background: darken(#390040,10%); 
+  background: linear-gradient(to bottom,  lighten(#390040,10%) 0%,lighten(#390040,5%) 50%,darken(#390040,5%) 51%,darken(#390040,10%) 100%);  
+  
+}
+
+.twoToneButton.spinning {
+  background-color: #390040;
+  padding-right: 40px;
+}
+.twoToneButton.spinning:after {
+  content: '';
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  box-shadow: 0px 0px 0 1px darken(#390040,10%);
+  position: absolute;
+  border-radius: 50%;
+  animation: rotate360 .5s infinite linear, exist .1s forwards ease;
+}
+
+.twoToneButton.spinning:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  right: 6px;
+  top: 50%;
+  position: absolute;
+  border: 2px solid darken(#390040,40%);
+  border-right: 3px solid #EBFFFE;
+  animation: rotate360 .5s infinite linear, exist .1s forwards ease ;
+  
+}
+
+
+
+@keyframes rotate360 { 
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes exist { 
+  100% {
+      width: 15px;
+      height: 15px;
+      margin: -8px 5px 0 0;
+  }
+}
+
