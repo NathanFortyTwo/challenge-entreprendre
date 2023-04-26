@@ -97,11 +97,15 @@ https://templatemo.com/tm-582-tale-seo-agency
 
   <!-- Drag and Drop part -->
   <div class="drag-area">
-    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
-    <span>Drag & Drop to Upload File</span>
-    <span>OR</span>
-    <button>Browse File</button>
-    <input type="file" hidden>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <input type="file" name="file">
+      <button type="submit">Upload</button>
+  </form>
+  {% if message %}
+      <p>{{ message }}</p>
+      <button onclick="location.href='run_stat/' filename=request.FILES.file %}'">Run stat</button>
+  {% endif %}
   </div>
   
   <div class="twoToneCenter">
