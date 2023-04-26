@@ -42,9 +42,9 @@ def run_stat(request, filename):
     #create = f"docker run  --name=seahorn_web -v {settings.BASE_DIR}/MEDIA:/host seahorn/seahorn-llvm5"
     #system(create)
     system(init)
-    sleep(5)
+    sleep(0.5)
     system(command)
-    sleep(5)
+    sleep(0.5)
 
     with open("output_sea.txt") as f:
         data = f.read().strip()
