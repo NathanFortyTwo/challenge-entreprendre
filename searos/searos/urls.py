@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,re_path
-from myApp import views 
+from myApp import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
     path("index",views.index),
     path("upload_code",views.upload_file),
     path("about",views.about),
+    path("passed",views.passed),
+    path("not_passed",views.not_passed),
     path('run_stat/<str:filename>/', views.run_stat, name='run_stat'),
 ]
