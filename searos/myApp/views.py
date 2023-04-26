@@ -8,9 +8,13 @@ from time import sleep
 
 
 
-def homepage(request):
+def index(request):
     context = {}
-    return render(request,"homepage.html",context)
+    return render(request,"index.html",context)
+
+def about(request):
+    context = {}
+    return render(request,"about.html",context)
 
 
 def upload_file(request):
@@ -18,8 +22,8 @@ def upload_file(request):
         uploaded_file = request.FILES['file']
         fs = FileSystemStorage()
         fs.save(uploaded_file.name, uploaded_file)
-        return render(request, 'upload_file.html', {'message': 'File uploaded successfully.'})
-    return render(request, 'upload_file.html')
+        return render(request, 'upload_code.html', {'message': 'File uploaded successfully.'})
+    return render(request, 'upload_code.html')
 
 
 

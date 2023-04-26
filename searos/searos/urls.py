@@ -19,7 +19,8 @@ from myApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",views.homepage),
-    path("upload_file",views.upload_file),
+    path("index",views.index),
+    path("upload_code",views.upload_file),
+    path("about",views.about),
     path('run_stat/<str:filename>/', views.run_stat, name='run_stat'),
 ]
