@@ -16,6 +16,14 @@ def about(request):
     context = {}
     return render(request,"about.html",context)
 
+def passed(request):
+    context = {}
+    return render(request,"pass_test.html",context)
+
+def not_passed(request):
+    context = {}
+    return render(request,"dont_pass_test.html",context)
+
 
 def upload_file(request):
     if request.method == 'POST':
@@ -42,4 +50,5 @@ def run_stat(request, filename):
     
     system("rm "+filepath)
     system("docker stop seahorn_web")
+    raise ValueError(data)
     return HttpResponse(data)
