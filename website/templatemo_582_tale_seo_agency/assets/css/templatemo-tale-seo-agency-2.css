@@ -119,12 +119,12 @@ body {
 }
 
 ::selection {
-  background: #5b03e4;
+  background: #62256a;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #5b03e4;
+  background: #62256a;
   color: #fff;
 }
 
@@ -135,7 +135,7 @@ body {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #5b03e4;
+  background-color: #62256a;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -148,7 +148,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #5b03e4;
+  background-color: #8a4993;
   color: #fff;
   opacity: 0.8;
 }
@@ -156,7 +156,7 @@ body {
 .second-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #c03afe;
+  background-color: #96c6d9;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -169,7 +169,7 @@ body {
 }
 
 .second-button a:hover {
-  background-color: #c03afe;
+  background-color: #a3c2ce;
   color: #fff;
   opacity: 0.8;
 }
@@ -202,12 +202,12 @@ body {
 }
 
 .section-heading h2 em {
-  color: #5b03e4;
+  color: #62256a;
   font-style: normal;
 }
 
 .section-heading h2 span {
-  color: #c03afe;
+  color: #96C6D9;
 }
 
 /* 
@@ -283,7 +283,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #5b03e4;
+  background: #390040;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -306,7 +306,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #5b03e4;
+  background: #96C6D9;
   border-radius: 50%;
 }
 
@@ -512,7 +512,7 @@ Header Style
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #5b03e4!important;
+  color: #62256a!important;
   padding-left: 25px;
 }
 
@@ -729,7 +729,7 @@ Header Style
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #5b03e4!important;
+    color: #62256a!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -829,9 +829,9 @@ Banner Style
 
 
 .main-banner:after {
-  content: url(../images/banner-right.png);
+  content: url(../images/banner-bras-meca.png);
   top: -1px;
-  right: 1;
+  right: 0;
   position: absolute;
   width: 826px;
   height: 741px;
@@ -851,7 +851,7 @@ Banner Style
 
 .main-banner h6 {
   font-size: 20px;
-  color: #5b03e4;
+  color: #62256a;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -875,11 +875,11 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #62256a;
 }
 
 .main-banner h4 span {
-  color: #c03afe;
+  color: #96C6D9;
 }
 
 .main-banner p {
@@ -949,7 +949,7 @@ Services Style
 
 .services .service-item h4 {
   font-size: 20px;
-  color: #2a2a2a;
+  color: #5a7072;
   margin-top: 20px;
   line-height: 30px;
   transition: all .4s;
@@ -961,7 +961,7 @@ Services Style
 }
 
 .services .service-item:hover h4 {
-  color: #5b03e4;
+  color: #390040;
 }
 
 /* 
@@ -1055,7 +1055,7 @@ Infos Style
 */
 
 .infos {
-  background-image: url(../images/infos-bg.jpg);
+  background-image: url(../images/infos-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1101,13 +1101,13 @@ Infos Style
 
 .infos .main-content .skill-slide .fill {
   height: 10px;
-  background-color: #5b03e4;
+  background-color: #390040;
   border-radius: 5px;
 }
 
 .infos .main-content .skill-slide h6 {
   position: absolute;
-  color: #5b03e4;
+  color: #390040;
   font-size: 15px;
   left: 0;
   top: -25px;
@@ -1115,30 +1115,31 @@ Infos Style
 
 .infos .main-content .skill-slide span {
   position: absolute;
-  color: #5b03e4;
+  color: #62256a;
   font-size: 15px;
   font-weight: 700;
   top: -25px;
 }
 
 .infos .main-content .marketing .fill {
-  width: 90%;
-}
-
-.infos .main-content .digital .fill {
-  width: 80%;
-}
-
-.infos .main-content .media .fill {
   width: 95%;
 }
 
+.infos .main-content .digital .fill {
+  width: 95%;
+}
+/*95% instead of 99% just to see better on website*/
+
+.infos .main-content .media .fill {
+  width: 100%;
+}
+
 .infos .main-content .marketing span {
-  right: 10%;
+  right: 5%;
 }
 
 .infos .main-content .digital span {
-  right: 20%;
+  right: 5%;
 }
 
 .infos .main-content .media span {
@@ -1238,7 +1239,7 @@ Contact Style
 #contact-form button {
   border: none;
   height: 46px;
-  background-color: #5b03e4;
+  background-color: #390040;
   width: 100%;
   border-radius: 23px;
   color: #fff;
@@ -1293,7 +1294,7 @@ footer p a {
 }
 
 footer p a:hover {
-  color: #5b03e4;
+  color: #390040;
 }
 
 /* 
@@ -1319,7 +1320,7 @@ Page Heading Style
 
 .page-heading h6 {
   font-size: 20px;
-  color: #5b03e4;
+  color: #390040;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1341,7 +1342,7 @@ Page Heading Style
 
 .page-heading h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #62256a;
 }
 
 .page-heading h4 span {
@@ -1457,15 +1458,15 @@ Infos Style
 }
 
 .video-info .marketing .fill {
-  width: 90%;
+  width: 99%;
 }
 
 .video-info .digital .fill {
-  width: 80%;
+  width: 99%;
 }
 
 .video-info .media .fill {
-  width: 95%;
+  width: 100%;
 }
 
 .video-info .marketing span {
@@ -1636,7 +1637,7 @@ CTA Style
 
 .cta h4 {
   font-size: 30px;
-  color: #fff;
+  color: #390040;
   line-height: 44px;
 }
 
@@ -1645,8 +1646,8 @@ CTA Style
 }
 
 .cta .main-button a {
-  background-color: #fff;
-  color: #5b03e4;
+  background-color: #390040;
+  color: #fff;
   margin-top: 30px;
 }
 
@@ -1994,3 +1995,56 @@ body {
     border-radius: 23px;
   }
 }
+
+/*Drag and Drop part in upload_code*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  
+  .drag-area{
+    border: 2px dashed #390040;
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  .drag-area.active{
+    border: 2px solid #390040;
+  }
+  .drag-area .icon{
+    font-size: 100px;
+    color: #390040;
+  }
+  .drag-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #390040;
+  }
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #390040;
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #390040;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
